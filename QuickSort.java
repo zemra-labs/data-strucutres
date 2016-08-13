@@ -8,7 +8,8 @@ public class QuickSort{
     int leftIndex = 0;
     // start with the end of the array as your rightmost index
     int rightIndex = myArray.length -1;
-    System.out.println(rightIndex);
+
+    // best/average O(n log(n)), worst O(n^2)
     while(leftIndex <= rightIndex){
       while(myArray[leftIndex] < pivot)
         leftIndex++;
@@ -27,7 +28,7 @@ public class QuickSort{
 
     }
     System.out.println(Arrays.toString(myArray));
-    
+
     if(leftIndex < rightIndex){
       partition();
     }
