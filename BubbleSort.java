@@ -6,7 +6,7 @@ public class BubbleSort {
   public static void main (String []args) {
       BubbleSort s = new BubbleSort();
       s.sort(myArray);
-
+      // time complexity best O(n), worst/average O(n^2)
   }
 
   public static void sort(int[] myArray){
