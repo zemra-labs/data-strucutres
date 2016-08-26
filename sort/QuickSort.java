@@ -39,7 +39,6 @@ public class QuickSort{
         rightIndex--;
       }
       System.out.println(Arrays.toString(myArray));
-
     }
 
     if (left < rightIndex){
@@ -49,7 +48,6 @@ public class QuickSort{
     if (leftIndex < right){
       sort(myArray, leftIndex, right);
     }
-
   }
 
 
